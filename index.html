@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>mobile app</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Our Work</a>
+        <a href="#">Service</a>
+        <a href="#">FAQ</a>
+        <a href="#">About Us</a>
+        <div class="btn">
+            <button class="btn1">Start a Project</button>
+        </div>
+      </div>
+      
+      <div id="main">
+        <img src="img/logo unlayer.png">
+        <button class="openbtn" onclick="openNav()">Menu</button>  
+      </div>
+
+      <!--Title-->
+
+      <div class="title">
+        <h3>We are a full-cycle agency that delivers turnkey projects, and by identifying the <span class="purple">Branding</span>
+        , creating the <span class="purple">web design</span>, and <span class="purple">mobile app</span> we turn it into a live product</h3>
+      </div>
+
+      <!--Video-->
+
+      <video width="300" class="video1" loop autoplay muted playsinline>
+        <source src="/videos/download.mp4" type="video/mp4">
+        Your browser does not support this HTML Video.
+      </video>
+
+      <!--Section 1-->
+
+      <div class="app">
+        <h2>Our approach</h2>
+        <img src="/img/man n woman plan.png" alt="">
+        <h3>Discover</h3>
+        <p>We aimed to dive into the client's project and its environment. A deep understanding of the target audience; its behaviors in 
+            the digital space; why and how this product will help is crucial before the launch.
+        </p>
+      </div>
+
+      <!--Menu section-->
+
+      <div class="menu">
+        <div class="selection">
+            <a onclick="toggleVisibility('Menu1');" href="#">All</a>
+            <a onclick="toggleVisibility('Menu2');" href="#">Web Design</a>
+            <a onclick="toggleVisibility('Menu3');" href="#">Mobile app</a>
+            <a onclick="toggleVisibility('Menu4');" href="#">Branding</a>
+      </div>
+
+      <div id="Menu1">
+        <img src="/img/afton sc.png" alt="">
+        <h3>Molly Milk</h3>
+      </div>
+      <div id="Menu2">
+        <img src="/img/afton sc.png" alt="">
+        <h3>Molly Milk</h3>
+      </div>
+      <div id="Menu3">
+        <img src="/img/afton sc.png" alt="">
+        <h3>Molly Milk</h3>
+      </div>
+      <div id="Menu4">
+        <img src="/img/afton sc.png" alt="">
+        <h3>Molly Milk</h3>
+      </div>
+        
+    </div>
+    
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
