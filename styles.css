@@ -182,6 +182,7 @@ body {
     transition: 0.25s ease-out;
     font-size: 2rem;
 }
+/* menu 1*/
 
 #Menu1{
     text-align: center;
@@ -189,6 +190,7 @@ body {
 }
 #Menu1 img {
     width: 330px;
+    margin-top: 20px;
 }
 
 #Menu1 h3 {
@@ -196,4 +198,125 @@ body {
     font-weight: bold;
     color: var(--white);
 }
-  
+
+/* menu 2*/
+
+#Menu2{
+    text-align: center;
+    margin-top: 40px;
+}
+#Menu2 img {
+    width: 330px;
+}
+
+#Menu2 h3 {
+    text-align: left;
+    font-weight: bold;
+    color: var(--white);
+}
+
+/* menu 3*/
+
+#Menu3{
+    text-align: center;
+    margin-top: 40px;
+}
+#Menu3 img {
+    width: 330px;
+}
+
+#Menu3 h3 {
+    text-align: left;
+    font-weight: bold;
+    color: var(--white);
+}
+
+/* menu 4*/
+
+#Menu4{
+    text-align: center;
+    margin-top: 40px;
+}
+#Menu4 img {
+    width: 330px;
+}
+
+#Menu4 h3 {
+    text-align: left;
+    font-weight: bold;
+    color: var(--white);
+}
+
+/* passion section */
+
+.passion {
+    margin-top: 50px;
+    text-align: center;
+}
+.passion img {
+    width: 300px;
+}
+.passion h2 {
+    margin-top: 20px;
+    text-align: left;
+    padding: 0 1rem;
+    font-weight: bold;
+}
+.passion p {
+    margin-top: 20px;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+/* contact button */
+
+.contact {
+    margin-top: 40px;
+    text-align: center;
+}
+.btn2 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid var(--black);
+  color: var(--white);
+  background: var(--black);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    margin-top: 50px;
+}
+.con {
+    line-height: 2.3rem;
+    padding: 0 1rem;
+}
+.con p:nth-child(1) {
+    font-weight: bold;
+    font-size: 20px;
+}
+.con p:nth-child(2){
+    text-decoration: underline;
+    cursor: pointer;
+}
+.follow {
+    margin-top: 50px;
+    padding: 0 1rem;
+}
+.follow p:nth-child(1){
+    font-weight: bold;
+}
+.flex {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+   gap: 1rem;
+}
+.flex a {
+    text-decoration: none;
+    color: var(--black);
+}
