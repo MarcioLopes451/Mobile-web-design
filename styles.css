@@ -8,10 +8,11 @@
     
 }
 
-body {
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: var(--white);
 }
-
 /* themes */ 
 :root {
     --white:#FFFFFF;
@@ -66,14 +67,15 @@ body {
     background: white;
   }
   
-  
   #main {
     transition: margin-left .5s;
     padding: 1rem 1rem;
     display: flex;
     justify-content: space-between;
   }
-  
+  .nav {
+    display: none;
+  }
   #main img {
     width: 100px;
     height: 40px;
@@ -94,7 +96,31 @@ body {
     border-radius: 5rem;
     background: white;
   }
-  
+
+  @media (min-width:1100px) {
+    .openbtn {
+        display: none;
+    }
+    .nav { display: flex;
+        justify-content: space-between;
+        padding: 0 70px;
+    }
+    .nav a {
+        padding: 0 40px;
+        margin: auto;
+        text-decoration: none;
+        color: var(--black);
+    }
+    .btn1 {
+        width: 150px;
+        color: var(--white);
+        background-color: var(--black);
+    }
+    #main img {
+        margin: 0 2rem;
+        width: 100px;
+    }
+  }
   /* title */
 
   .title {
@@ -103,6 +129,7 @@ body {
     padding: 0 1.3rem;
     line-height: 2.4rem;
     font-size: 1.4rem;
+        
   }
 
   .purple{
@@ -131,11 +158,30 @@ body {
     transform-origin: center;
   }
 
+  @media (min-width:1000px){
+    .title {
+        margin-top: 10%;
+        width: 100%;
+        text-align: center;
+    }
+    .title h3 {
+      font-size: 3.2vw;
+      line-height: 5rem;
+      padding: 0 10rem;
+    }
+  }
   /* video 1 */
 
   .video1 {
     display: block;
     margin: 20px auto;
+  }
+
+  @media (min-width:600px) {
+    .video1 {
+        width: 90%;
+        margin-top: 15%;
+    }
   }
 
   /* section 1 */
@@ -157,6 +203,32 @@ body {
     text-align: left;
     font-size: 1.1rem;
     margin-top: 10px;
+  }
+
+  @media (min-width:600px) {
+    .app {
+        height: 800px;
+        margin-top: 10%;
+        padding: 0 10rem;
+    }
+    .app h2 {
+        font-size: 3.2vw;
+        font-weight: bolder;
+        padding: 0 4rem;
+    }
+    .app img {
+        width: 600px;
+        float: left;
+        margin-top: 50px;
+    }
+    .app p{
+        margin-top: 10%;
+        font-size: 1.7vw;
+        font-weight: lighter;
+    }
+    .app h3 {
+        display: none;
+    }
   }
 
   /* menu section */ 
