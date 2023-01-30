@@ -318,7 +318,33 @@ html, body {
     font-weight: bold;
     color: var(--white);
 }
+@media (min-width:600px){
+    #Menu1 img{
+       width: 50%;
+    }
+    #Menu1 h3 {
+        text-align: center;
+    }
+    #Menu2 img{
+        width: 50%;
+     }
+     #Menu2 h3 {
+         text-align: center;
+     }
+     #Menu3 img{
+        width: 50%;
+     }
+     #Menu3 h3 {
+         text-align: center;
+     }
+     #Menu4 img{
+        width: 50%;
+     }
+     #Menu4 h3 {
+         text-align: center;
+     }
 
+}
 /* passion section */
 
 .passion {
@@ -340,6 +366,24 @@ html, body {
     padding: 0 1rem;
 }
 
+@media (min-width:600px){
+    .passion {
+        margin-top: 10%;
+    }
+    .passion img {
+        width: 500px;
+    }
+    .passion h2{
+        font-size: 3vh;
+        padding: 0 1rem;
+        
+    }
+    .passion p {
+        font-size: 1.5vw;
+        padding: 0 1rem;
+    }
+}
+
 /* contact button */
 
 .contact {
@@ -356,7 +400,13 @@ html, body {
   font-size: 20px;
   cursor: pointer;
 }
-
+@media (min-width:600px){
+    .btn2 {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+    }
+}
 /* footer */
 
 footer {
@@ -391,4 +441,24 @@ footer {
 .flex a {
     text-decoration: none;
     color: var(--black);
+}
+@media (min-width:600px){
+    footer {
+        margin: 15% 0;
+    }
+    .con {
+        padding: 0 2.3rem;
+       float: left;
+       margin: auto;
+       font-size: 1.4vw;
+    }
+    .follow {
+        float: right;
+        margin: auto;
+        padding: 0 2.3rem;
+    }
+    .flex {
+        float: right;
+        font-size: 1.4vw;
+    }
 }
